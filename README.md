@@ -4,6 +4,7 @@
 1) README.md -- this file
 2) CodeBook.md -- variables
 3) run_analysis.R -- R script which gives the main tidy data set
+4) final_set.txt -- an independent tidy data set with the average of each variable for each activity and each subject
 
 # Description of the experiment:
 The experiment was carried out with a group of 30 volunteers with their age varying between 19 and 48 years. Each person was required to perform six activities (simply walking (WALKING), walking upstairs (WALKING_UPSTAIRS), walking downstairs (WALKING_DOWNSTAIRS), sitting (SITTING), standing (STANDING) and laying (LAYING)) while also wearing a smartphone Samsung Galaxy SII on the waist. With the help of its embedded accelerometer and gyroscope, researchers behind the experiment captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
