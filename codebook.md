@@ -1,6 +1,5 @@
 # Getting and Cleaning Data Course Project Documentation
-
-# Created By Artyom Orekhov (a.k.a. DukeNukem4ever)
+Author: Artyom Orekhov (a.k.a. DukeNukem4ever)
 
 # Purpose
 The purpose describes the variables, the data, and any transformations or work that is performed to clean up said data and get the file we need.
@@ -25,7 +24,7 @@ The following files have been read separately from each other:
 Following that, the test and train datasets had been merged into a single table with the help of rbind function.
 
 # Step 2: Finding mean and standard deviation measurements
-The only things that were currently needed to pull from the table are only the mean and standard deviation measurements. This task has been accomplished with the help of the grep function.
+The only things that were currently needed to pull from the table are only the mean and standard deviation measurements. This task has been accomplished with the help of grep function.
 
 # Step 3: Setting activity names in the data set
 Data subset had been joined with the activityType table to include the descriptive activity names. 
@@ -34,4 +33,4 @@ Data subset had been joined with the activityType table to include the descripti
 The gsub function proved to be very useful for cleaning up the variable names with special characters in between.
 
 # Step 5: Creating a second tidy data set with the average of each variable for each activity and each subject.
-A single table containing the averages and means was created with the help of the aggregate function for the variables.
+A single table containing the averages and means was created with the help of aggregate function for the variables.
