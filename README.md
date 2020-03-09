@@ -2,7 +2,7 @@
 
 # Content:
 1) README.md -- this file
-2) CodeBook.md -- variables
+2) codebook.md -- variables
 3) run_analysis.R -- R script which gives the main tidy data set
 4) final_set.txt -- an independent tidy data set with the average of each variable for each activity and each subject
 
